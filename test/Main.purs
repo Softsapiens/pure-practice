@@ -4,13 +4,6 @@ import Prelude
 import Control.Monad.Eff
 import Control.Monad.Eff.Console
 
-import DB
-
-
-getTags m 
-
-
-
 main :: forall e. Eff (console :: CONSOLE | e) Unit
 main = do
   log "You should add some tests."
